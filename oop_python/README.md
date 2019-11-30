@@ -10,15 +10,34 @@ Program juga demikian. Semua unit dalam program bisa dianggap sebagai objek. Obj
 Python dari awal dibuat sudah mengadopsi OOP. Selain itu Python juga bisa menggunakan paradigma pemrograman lama yaitu pemrograman terstruktur. Oleh karena itu, Python disebut bersifat hibrid.
 <hr/>
 ## Istilah – Istilah Dalam OOP
-- Kelas – Kelas adalah cetak biru atau prototipe dari objek dimana kita mendefinisikan atribut dari suatu objek. Atribut ini terdiri dari data member (variabel) dan fungsi (metode).
-- Variabel Kelas – Variabel kelas adalah variabel yang dishare atau dibagi oleh semua instance (turunan) dari kelas. Variabel kelas didefinisikan di dalam kelas, tapi di luar metode-metode yang ada dalam kelas tersebut.
-- Data member – Data member adalah variabel yang menyimpan data yang berhubungan dengan kelas dan objeknya
-- Overloading Fungsi – Overloading fungsi adalah fungsi yang memiliki nama yang sama di dalam kelas, tapi dengan jumlah dan tipe argumen yang berbeda sehingga dapat melakukan beberapa hal yang berbeda.
-- Overloading operator – Overloading operator adalah pembuatan beberapa fungsi atau kegunaan untuk suatu operator. Misalnya operator + dibuat tidak hanya untuk penjumlahan, tapi juga untuk fungsi lain.
-- Variabel instansiasi – Variabel instansiasi adalah variabel yang didefinisikan di dalam suatu metode dan hanya menjadi milik dari instance kelas.
-- Pewarisan/Inheritansi – Inheritansi adalah pewarisan karakteristik sebuah kelas ke kelas lain yang menjadi turunannya.
-- Instance – Instance adalah istilah lain dari objek suatu kelas. Sebuah objek yang dibuat dari prototipe kelas Lingkaran misalnya disebut sebagai instance dari kelas tersebut.
-- Instansiasi – Instansiasi adalah pembuatan instance/objek dari suatu kelas
-- Metode – Metode adalah fungsi yang didefinisikan di dalam suatu kelas
-- Objek – Objek adalah instansiasi atau perwujudan dari sebuah kelas. Bila kelas adalah prototipenya, dan objek adalah barang jadinya.
+
+- **Kelas** – Kelas adalah cetak biru atau prototipe dari objek dimana kita mendefinisikan atribut dari suatu objek. Atribut ini terdiri dari data member (variabel) dan fungsi (metode).
+- **Variabel Kelas** – Variabel kelas adalah variabel yang dishare atau dibagi oleh semua instance (turunan) dari kelas. Variabel kelas didefinisikan di dalam kelas, tapi di luar metode-metode yang ada dalam kelas tersebut.
+- **Data member** – Data member adalah variabel yang menyimpan data yang berhubungan dengan kelas dan objeknya
+- **Overloading Fungsi** – Overloading fungsi adalah fungsi yang memiliki nama yang sama di dalam kelas, tapi dengan jumlah dan tipe argumen yang berbeda sehingga dapat melakukan beberapa hal yang berbeda.
+- **Overloading operator** – Overloading operator adalah pembuatan beberapa fungsi atau kegunaan untuk suatu operator. Misalnya operator + dibuat tidak hanya untuk penjumlahan, tapi juga untuk fungsi lain.
+- **Variabel instansiasi** – Variabel instansiasi adalah variabel yang didefinisikan di dalam suatu metode dan hanya menjadi milik dari instance kelas.
+- **Pewarisan/Inheritansi** – Inheritansi adalah pewarisan karakteristik sebuah kelas ke kelas lain yang menjadi turunannya.
+- **Instance** – Instance adalah istilah lain dari objek suatu kelas. Sebuah objek yang dibuat dari prototipe kelas Lingkaran misalnya disebut sebagai instance dari kelas tersebut.
+- **Instansiasi** – Instansiasi adalah pembuatan instance/objek dari suatu kelas
+- **Metode** – Metode adalah fungsi yang didefinisikan di dalam suatu kelas
+- **Objek** – Objek adalah instansiasi atau perwujudan dari sebuah kelas. Bila kelas adalah prototipenya, dan objek adalah barang jadinya.
+
+
+
+
+
+## **Pembuatan Kelas**
+
+Kita mendefinisikan sebuah kelas dengan menggunakan kata kunci `class` diikuti oleh nama kelas tersebut. Berikut adalah sintaks pembuatan kelas di Python.
+
+```python
+class ClassName:
+    '''class docstring'''
+    class_body
+```
+
+### 
+
+
 
